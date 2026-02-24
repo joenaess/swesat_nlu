@@ -43,6 +43,19 @@ python3 process_verbal_sections/parse_exam_pdf.py exam_pdfs
 > [!TIP]  
 > The LÄS section may contain copyrighted reading passages. You can inspect the sources of these passages on [studera.nu](https://www.studera.nu/hogskoleprov/forbered/tidigare-hogskoleprov/) when clicking on a specific exam year (found under the *"Källor"* section). :warning: The site is in Swedish!
 
+## Merged Dataset (SweSAT + Skolprov)
+
+We provide scripts to merge the local SweSAT text-based exams with the [Swedish Skolprov](https://huggingface.co/datasets/Ekgren/swedish_skolprov) dataset into a unified, State-of-the-Art benchmark fully aligned with standard LLM evaluation harness instructions.
+
+You can access the fully merged dataset directly on Hugging Face: [**jonasaise/swesat-skolprov-merged**](https://huggingface.co/datasets/jonasaise/swesat-skolprov-merged)
+
+To manually re-generate or upload the merged dataset yourself, you can run:
+
+```shell
+uv run python scripts/merge_benchmarks.py
+uv run python scripts/upload_to_hf.py --repo_id "your_org/your_dataset_name"
+```
+
 ## Citation
 
 If you use SweSAT-1.0 in your research, please cite:
