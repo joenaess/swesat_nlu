@@ -17,14 +17,17 @@ def run_evaluation():
         "text-generation", model=model, tokenizer=tokenizer, trust_remote_code=True
     )
 
-    # Load the merged dataset JSONL
+    # Load the merged dataset JSONL, specifically filtering for Swesat and Skolprov
+    # These sections are purely multiple-choice (A-E), ensuring we can perfectly evaluate string matching.
     dataset_file = "merged_benchmark.jsonl"
-    print(f"Loading dataset from {dataset_file}...")
+    print(f"Loading multiple-choice dataset from {dataset_file}...")
     samples = []
     with open(dataset_file, "r", encoding="utf-8") as f:
         for line in f:
             if line.strip():
-                samples.append(json.loads(line))
+                item = json.loads(line)
+                if item.get("source") in ["swesat", "skolprov"]:
+                    samples.append(item)
 
     # Select 50 random samples with a known short answer to evaluate
     random.seed(42)
@@ -85,7 +88,7 @@ def run_evaluation():
     # Note: Accuracy will be roughly 0% because the model answers in Swedish while SuperLim tags are English.
     # A true evaluation harness (like lm-evaluation-harness) uses loglikelihoods or translated label maps!
     accuracy = correct / total
-    print(f"\nEvaluation Complete!")
+    print("\nEvaluation Complete!")
     print(
         f"Exact string match Accuracy: {accuracy * 100:.2f}% ({correct}/{total}) - Note: Expect low exact match due to Swedish/English label mismatches in non-MCQA SuperLim tasks."
     )
