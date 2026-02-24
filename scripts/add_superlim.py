@@ -168,10 +168,33 @@ def map_superlim():
 
     output_file = "merged_benchmark.jsonl"
     if os.path.exists(output_file):
-        with open(output_file, "a", encoding="utf-8") as f:
-            for item in unified_items:
+        seen = set()
+        existing_items = []
+        with open(output_file, "r", encoding="utf-8") as f:
+            for line in f:
+                if not line.strip():
+                    continue
+                item = json.loads(line)
+                sig = (item.get("prompt", ""), item.get("answer", ""))
+                seen.add(sig)
+                existing_items.append(item)
+
+        added = 0
+        for item in unified_items:
+            sig = (item.get("prompt", ""), item.get("answer", ""))
+            if sig not in seen:
+                seen.add(sig)
+                existing_items.append(item)
+                added += 1
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            for item in existing_items:
                 f.write(json.dumps(item, ensure_ascii=False) + "\n")
-        print(f"Appended to {output_file}.")
+
+        print(
+            f"Added {added} unique items. Skipped {len(unified_items) - added} duplicates."
+        )
+        print(f"Total unique questions in {output_file}: {len(existing_items)}")
     else:
         print(f"{output_file} not found. Could not append to it.")
 

@@ -178,6 +178,18 @@ def merge():
 
     combined = swesat_data + skolprov_data
 
+    # Deduplicate combined items by their prompt and answer
+    seen = set()
+    deduped = []
+    for item in combined:
+        sig = (item.get("prompt", ""), item.get("answer", ""))
+        if sig not in seen:
+            seen.add(sig)
+            deduped.append(item)
+
+    print(f"Removed {len(combined) - len(deduped)} duplicate questions from overlap.")
+    combined = deduped
+
     output_file = "merged_benchmark.jsonl"
     with open(output_file, "w", encoding="utf-8") as f:
         for item in combined:
