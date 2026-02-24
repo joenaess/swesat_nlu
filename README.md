@@ -43,16 +43,17 @@ python3 process_verbal_sections/parse_exam_pdf.py exam_pdfs
 > [!TIP]  
 > The LÄS section may contain copyrighted reading passages. You can inspect the sources of these passages on [studera.nu](https://www.studera.nu/hogskoleprov/forbered/tidigare-hogskoleprov/) when clicking on a specific exam year (found under the *"Källor"* section). :warning: The site is in Swedish!
 
-## Merged Dataset (SweSAT + Skolprov)
+## Merged Dataset (SweSAT + Skolprov + SuperLim)
 
-We provide scripts to merge the local SweSAT text-based exams with the [Swedish Skolprov](https://huggingface.co/datasets/Ekgren/swedish_skolprov) dataset into a unified, State-of-the-Art benchmark fully aligned with standard LLM evaluation harness instructions.
+We provide scripts to merge the local SweSAT text-based exams, the [Swedish Skolprov](https://huggingface.co/datasets/Ekgren/swedish_skolprov) dataset, and the 15 tasks of the Swedish [SuperLim-2](https://github.com/spraakbanken/SuperLim-2) benchmark into a unified, State-of-the-Art benchmark fully aligned with standard LLM evaluation harness instructions.
 
 You can access the fully merged dataset directly on Hugging Face: [**jonasaise/swesat-skolprov-merged**](https://huggingface.co/datasets/jonasaise/swesat-skolprov-merged)
 
-To manually re-generate or upload the merged dataset yourself, you can run:
+To manually re-generate or upload the merged dataset yourself, you can run the building scripts in sequence (generating `merged_benchmark.jsonl`):
 
 ```shell
 uv run python scripts/merge_benchmarks.py
+uv run python scripts/add_superlim.py
 uv run python scripts/upload_to_hf.py --repo_id "your_org/your_dataset_name"
 ```
 
