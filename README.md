@@ -56,6 +56,33 @@ uv run python scripts/merge_benchmarks.py
 uv run python scripts/upload_to_hf.py --repo_id "your_org/your_dataset_name"
 ```
 
+## Evaluation Example
+
+Because the merged dataset includes explicit LLM instruction fields (`system_prompt` and `prompt`), you can easily evaluate any Hugging Face model in a zero-shot setting. Here is a minimal example using `transformers`:
+
+```python
+from transformers import pipeline
+from datasets import load_dataset
+
+# Load your model and the dataset
+generator = pipeline("text-generation", model="meta-llama/Llama-3.2-1B-Instruct", device=0)
+dataset = load_dataset("jonasaise/swesat-skolprov-merged", split="train")
+
+# Pick a sample question
+sample = dataset[0]
+
+# Construct the exact chat format
+messages = [
+    {"role": "system", "content": sample["system_prompt"]},
+    {"role": "user", "content": sample["prompt"]},
+]
+
+# Generate the answer!
+output = generator(messages, max_new_tokens=10)
+print(f"Generated Answer: {output[0]['generated_text'][-1]['content']}")
+print(f"Actual Answer:    {sample['answer']}")
+```
+
 ## Citation
 
 If you use SweSAT-1.0 in your research, please cite:
