@@ -1,6 +1,6 @@
 # SweSAT-1.0: A Benchmark for Swedish LLMs
 
-SweSAT-1.0 is a benchmark dataset created from the Swedish university entrance exam (*Högskoleprovet*) to assess large language models (LLMs) in Swedish. It includes **867 multiple-choice questions** from the last 8 exams (2020-10-25 to 2024-04-13), covering  the following six different question types: 
+SweSAT-1.0 is a benchmark dataset created from the Swedish university entrance exam (*Högskoleprovet*) to assess large language models (LLMs) in Swedish. It includes **867 multiple-choice questions** from the last 8 exams (2020-10-25 to 2024-04-13), covering  the following six different question types:
 
 - **ORD** (Vocabulary) - Tests the understanding of in-domain words and synonyms.
 - **LÄS** (Reading Comprehension) - Assesses the ability to make inferences from a text.
@@ -9,14 +9,13 @@ SweSAT-1.0 is a benchmark dataset created from the Swedish university entrance e
 - **KVA** (Quantitative Comparisons) - Measures the ability to compare quantities in mathematical concepts.
 - **NOG** (Data Sufficiency) - Determines the ability to assess whether given data is sufficient to solve a problem.
 
-
 ## Install dependencies
 
-- **With [`poetry`](https://python-poetry.org/docs/#installation) (recommended):**
+- **With [`uv`](https://docs.astral.sh/uv/) (recommended):**
 
     ```shell
-    poetry shell
-    poetry install # installs all dependencies from lockfile
+    uv sync
+    uv run python script_name.py
     ```
 
 - **With `pip`:**
@@ -24,7 +23,7 @@ SweSAT-1.0 is a benchmark dataset created from the Swedish university entrance e
     ```shell
     python -m venv .swe_sat_venv
     source .swe_sat_venv/bin/activate
-    pip3 install pdfplumber requests
+    pip3 install -e .
     ```
 
 ## Dataset
@@ -42,7 +41,7 @@ python3 process_verbal_sections/parse_exam_pdf.py exam_pdfs
 ```
 
 > [!TIP]  
-> The LÄS section may contain copyrighted reading passages. You can inspect the sources of these passages on [studera.nu](https://www.studera.nu/hogskoleprov/forbered/tidigare-hogskoleprov/) when clicking on a specific exam year (found under the _"Källor"_ section). :warning: The site is in Swedish!
+> The LÄS section may contain copyrighted reading passages. You can inspect the sources of these passages on [studera.nu](https://www.studera.nu/hogskoleprov/forbered/tidigare-hogskoleprov/) when clicking on a specific exam year (found under the *"Källor"* section). :warning: The site is in Swedish!
 
 ## Citation
 
