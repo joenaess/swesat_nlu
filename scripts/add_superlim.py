@@ -41,11 +41,23 @@ def map_superlim():
             # Parse broken schemas
             row = fix_row(row)
 
+            LABEL_MAP = {
+                "incorrect": "Inkorrekt",
+                "correct": "Korrekt",
+                "entailment": "Entailment",
+                "neutral": "Neutral",
+                "contradiction": "Motsägelse",
+                "coreferring": "Korefererande",
+                "different_sense": "Annan betydelse",
+                "same_sense": "Samma betydelse",
+            }
+
             prompt = ""
             sys_prompt = ""
             # Safely get label, handle list or dict if malformed, default string
             answer_raw = row.get("label", "")
-            answer = str(answer_raw) if answer_raw is not None else ""
+            ans_str = str(answer_raw) if answer_raw is not None else ""
+            answer = LABEL_MAP.get(ans_str, ans_str)
             options = ["", "", "", "", ""]
 
             if conf == "absabank-imm":

@@ -17,8 +17,7 @@ def run_evaluation():
         "text-generation", model=model, tokenizer=tokenizer, trust_remote_code=True
     )
 
-    # Load the merged dataset JSONL, specifically filtering for Swesat and Skolprov
-    # These sections are purely multiple-choice (A-E), ensuring we can perfectly evaluate string matching.
+    # Load the merged dataset JSONL
     dataset_file = "merged_benchmark.jsonl"
     print(f"Loading multiple-choice dataset from {dataset_file}...")
     samples = []
@@ -26,8 +25,7 @@ def run_evaluation():
         for line in f:
             if line.strip():
                 item = json.loads(line)
-                if item.get("source") in ["swesat", "skolprov"]:
-                    samples.append(item)
+                samples.append(item)
 
     # Select 50 random samples with a known short answer to evaluate
     random.seed(42)
