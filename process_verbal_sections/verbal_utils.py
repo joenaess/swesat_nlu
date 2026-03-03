@@ -156,7 +156,7 @@ def parse_mek(reader, pages):
 
 
 verb_parse_methods = {
-    # "ORD": parse_ord, ## commented out because they are already part of the repo
+    "ORD": parse_ord, ## commented out because they are already part of the repo
     "LÄS": parse_las,
     "MEK": parse_mek,
 }
