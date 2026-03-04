@@ -1,0 +1,367 @@
+[
+    {
+        "question_number": 1,
+        "question": "$12x - 54 = 6x + 18$\n\nVad är $x$?",
+        "answers": {
+            "a": "$-6$",
+            "b": "$-2$",
+            "c": "$4$",
+            "d": "$12$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 2,
+        "question": "$\\sqrt{3}x = 6$\n\nVilket värde har $x$?",
+        "answers": {
+            "a": "$\\sqrt{2}$",
+            "b": "$3\\sqrt{2}$",
+            "c": "$2\\sqrt{3}$",
+            "d": "$4$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 3,
+        "question": "$x > 0$\n\nHur många procent av $x$ är $\\frac{x}{15} + \\frac{x}{30}$?",
+        "answers": {
+            "a": "$4,5$",
+            "b": "$10$",
+            "c": "$15$",
+            "d": "$22,5$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 4,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$15^{\\circ}$",
+            "b": "$20^{\\circ}$",
+            "c": "$25^{\\circ}$",
+            "d": "$30^{\\circ}$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 5,
+        "question": "Vilket svarsalternativ är korrekt?",
+        "answers": {
+            "a": "$\\frac{3}{4} < \\frac{7}{8} < \\frac{25}{32}$",
+            "b": "$\\frac{3}{4} < \\frac{13}{16} < \\frac{25}{32}$",
+            "c": "$\\frac{3}{4} < \\frac{7}{8} < \\frac{13}{16}$",
+            "d": "$\\frac{3}{4} < \\frac{25}{32} < \\frac{13}{16}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 6,
+        "question": "Visual required to solve this question",
+        "answers": {},
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "graph",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 7,
+        "question": "En kvadrat har sidan $s$ cm och diagonalen $d$ cm. Om $2s^{2} + d^{2} = 64$, vilket värde har då $s$?",
+        "answers": {
+            "a": "$2$",
+            "b": "$4$",
+            "c": "$8$",
+            "d": "$16$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 8,
+        "question": "Vilket svarsalternativ motsvarar $\\frac{3(x + y) - 5(y - x)}{2}$?",
+        "answers": {
+            "a": "$x - 2y$",
+            "b": "$4x - 4y$",
+            "c": "$4x - y$",
+            "d": "$8x - 2y$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 9,
+        "question": "$x - y = 7$\n\nVilket av svarsalternativen är med säkerhet korrekt?",
+        "answers": {
+            "a": "Om $x$ är negativt, så är $y$ negativt.",
+            "b": "Om $x$ är positivt, så är $y$ positivt.",
+            "c": "Om $y$ är negativt, så är $x$ positivt.",
+            "d": "Om $y$ är positivt, så är $x$ negativt."
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 10,
+        "question": "Punkten $(a, 2a)$ ligger på linjen som ges av ekvationen $y = 3x - 60$. Vilket värde har $a$?",
+        "answers": {
+            "a": "$12$",
+            "b": "$15$",
+            "c": "$30$",
+            "d": "$60$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 11,
+        "question": "Ritva har sex bollar som hon fördelar slumpmässigt i tre tomma lådor. Hur stor är sannolikheten att exakt en låda innehåller ett udda antal bollar när Ritva är klar?",
+        "answers": {
+            "a": "$0$",
+            "b": "$\\frac{1}{3}$",
+            "c": "$\\frac{2}{3}$",
+            "d": "$1$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 12,
+        "question": "Vilken av följande produkter är lika med $8^{x}$, för något heltal $x$?",
+        "answers": {
+            "a": "$16 \\cdot 16$",
+            "b": "$16 \\cdot 32$",
+            "c": "$32 \\cdot 32$",
+            "d": "$32 \\cdot 64$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 13,
+        "question": "Kvantitet I: $\\sqrt{5} + 1$\nKvantitet II: $\\sqrt{6}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 14,
+        "question": "$\\frac{x}{4} + \\frac{1}{2} = \\frac{5}{8}$\n\nKvantitet I: $x$\nKvantitet II: $2$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 15,
+        "question": "$0 < x < y$\n\nKvantitet I: $x + 2y$\nKvantitet II: $2x + y$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 16,
+        "question": "Kvantitet I: $(\\frac{3}{5} - \\frac{4}{7}) \\cdot 32$\nKvantitet II: $1$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 17,
+        "question": "Kalle har $x$ kulor och Pelle har $y$ kulor. Olle har inga kulor. Kalle ger hälften av sina kulor till Olle. Pelle ger också hälften av sina kulor till Olle.\n\nKvantitet I: Det sammanlagda antalet kulor som Olle får av Kalle och Pelle\nKvantitet II: Medelvärdet av antalet kulor som Kalle och Pelle hade innan de gav kulor till Olle",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 18,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 19,
+        "question": "Linjen $L$ ges av ekvationen $y = -\\frac{x}{2} + 4$.\n\nKvantitet I: $x$-koordinaten för den punkt där $L$ skär $x$-axeln\nKvantitet II: $y$-koordinaten för den punkt där $L$ skär $y$-axeln",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 20,
+        "question": "En mätserie består av sex positiva heltal. De fyra största mätvärdena är större än $12$. De fyra minsta mätvärdena är mindre än $15$.\n\nKvantitet I: Mätseriens median\nKvantitet II: $13,5$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 21,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 22,
+        "question": "$\\frac{x}{y} = -1$\n\nKvantitet I: $x - y$\nKvantitet II: $0$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 23,
+        "question": "Eskil samlar på kylskåpsmagneter. Hur många kylskåpsmagneter har Eskil?\n\n(1) Om Eskil fick $25$ procent fler kylskåpsmagneter, så skulle han ha $100$ kylskåpsmagneter.\n(2) En femtedel av Eskils samling utgör $20$ procent av hans kylskåpsmagneter.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 24,
+        "question": "Pernilla har bakat sammanlagt $80$ bullar: kanelbullar och vaniljbullar. Hon har lagt några bullar i skafferiet och resten av bullarna i frysen. Hur många vaniljbullar har Pernilla lagt i frysen?\n\n(1) Pernilla har lagt $20$ kanelbullar och $10$ vaniljbullar i skafferiet.\n(2) Tre fjärdedelar av bullarna som Pernilla har bakat är kanelbullar.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 25,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 26,
+        "question": "En grupp består av fyra flickor och en pojke. Deras medellängd är $172$ cm. Hur lång är pojken?\n\n(1) Flickornas medellängd är $170$ cm.\n(2) Pojken är $5$ cm längre än den längsta flickan.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 27,
+        "question": "Tre termosar – en vit, en svart och en grå – står på ett bord. En av termosarna innehåller kaffe, en innehåller te och en innehåller varm choklad. Vilken dryck finns i den vita termosen?\n\n(1) Kaffet finns i den svarta eller den vita termosen. Den varma chokladen finns inte i den vita termosen.\n(2) Kaffet finns inte i den svarta termosen. I den grå termosen finns det te.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 28,
+        "question": "Vilket är det positiva heltalet $x$?\n\n(1) $50 < x < 75$\n(2) $x$ är jämnt delbart med $8$, men inte med $3$.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    }
+]

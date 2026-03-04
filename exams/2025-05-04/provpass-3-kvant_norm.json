@@ -1,0 +1,372 @@
+[
+    {
+        "question_number": 1,
+        "question": "$2x - 3y = 12$\n\nVad är $x$ om $y = -2$?",
+        "answers": {
+            "a": "$3$",
+            "b": "$6$",
+            "c": "$9$",
+            "d": "$12$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 2,
+        "question": "Medelvärdet av tre på varandra följande heltal är $15$. Vilket är det minsta av dessa heltal?",
+        "answers": {
+            "a": "$13$",
+            "b": "$14$",
+            "c": "$15$",
+            "d": "$16$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 3,
+        "question": "En cirkel har arean $16\\pi$ cm$^2$. Vad är cirkelns omkrets?",
+        "answers": {
+            "a": "$4\\pi$ cm",
+            "b": "$8\\pi$ cm",
+            "c": "$16\\pi$ cm",
+            "d": "$32\\pi$ cm"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 4,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$35^{\\circ}$",
+            "b": "$45^{\\circ}$",
+            "c": "$55^{\\circ}$",
+            "d": "$65^{\\circ}$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 5,
+        "question": "Vilket svarsalternativ motsvarar uttrycket $\\frac{x^2 - 4}{x + 2}$?",
+        "answers": {
+            "a": "$x - 2$",
+            "b": "$x + 2$",
+            "c": "$x^2 - 2$",
+            "d": "$x^2 + 2$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 6,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$y = 2x + 1$",
+            "b": "$y = x + 2$",
+            "c": "$y = -2x + 1$",
+            "d": "$y = -x + 2$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "graph",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 7,
+        "question": "Priset på en vara sänks först med $20$\\% och sedan med ytterligare $10$\\% på det nya priset. Med hur många procent har priset sänkts totalt?",
+        "answers": {
+            "a": "$25$\\%",
+            "b": "$28$\\%",
+            "c": "$30$\\%",
+            "d": "$32$\\%"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 8,
+        "question": "Vad är värdet av $2^5 \\cdot 5^5$?",
+        "answers": {
+            "a": "$10^{5}$",
+            "b": "$10^{10}$",
+            "c": "$10^{25}$",
+            "d": "$25^{10}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 9,
+        "question": "Om $a$ och $b$ är positiva heltal och $a + b = 10$, vilket är det största möjliga värdet för $a \\cdot b$?",
+        "answers": {
+            "a": "$9$",
+            "b": "$16$",
+            "c": "$21$",
+            "d": "$25$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 10,
+        "question": "$f(x) = ax + 3$\n\nVad är $f(2)$ om $f(1) = 5$?",
+        "answers": {
+            "a": "$5$",
+            "b": "$7$",
+            "c": "$8$",
+            "d": "$10$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 11,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$2\\sqrt{3}$",
+            "b": "$4$",
+            "c": "$4\\sqrt{2}$",
+            "d": "$6$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 12,
+        "question": "Vilket av följande tal är störst?",
+        "answers": {
+            "a": "$0,111$",
+            "b": "$\\frac{1}{9}$",
+            "c": "$\\frac{11}{100}$",
+            "d": "$0,1109$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 13,
+        "question": "Kvantitet I: $\\frac{3}{4} + \\frac{1}{5}$\nKvantitet II: $1$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 14,
+        "question": "$x^2 = 25$\n\nKvantitet I: $x$\nKvantitet II: $5$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 15,
+        "question": "$a > b > 0$\n\nKvantitet I: $\\frac{a + b}{a}$\nKvantitet II: $\\frac{a}{a - b}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 16,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 17,
+        "question": "$y = 3x - 4$\n\nKvantitet I: Värdet på $y$ när $x = 2$\nKvantitet II: Värdet på $x$ när $y = 2$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 18,
+        "question": "Kvantitet I: Sannolikheten att få en 6:a vid ett kast med en vanlig tärning\nKvantitet II: Sannolikheten att få krona vid ett kast med ett symmetriskt mynt",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 19,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "graph",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 20,
+        "question": "$x + y = 10$\n$x - y = 4$\n\nKvantitet I: $x \\cdot y$\nKvantitet II: $20$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 21,
+        "question": "Kvantitet I: $\\sqrt{50}$\nKvantitet II: $7$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 22,
+        "question": "En rätvinklig triangel har kateterna $3$ cm och $4$ cm.\n\nKvantitet I: Triangelns area\nKvantitet II: Triangelns hypotenusa",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 23,
+        "question": "Hur många anställda har företaget $X$?\n\n(1) $60$\\% av de anställda är kvinnor.\n(2) Det finns $12$ fler kvinnor än män anställda på företaget.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 24,
+        "question": "Är heltalet $n$ delbart med $6$?\n\n(1) $n$ är delbart med $2$.\n(2) $n$ är delbart med $3$.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 25,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 26,
+        "question": "Vad kostar en kopp kaffe och en bulle tillsammans?\n\n(1) Tre koppar kaffe och två bullar kostar $110$ kr.\n(2) En kopp kaffe kostar $10$ kr mer än en bulle.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 27,
+        "question": "Är $x > y$?\n\n(1) $x^2 > y^2$\n(2) $x > 0$ och $y < 0$\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 28,
+        "question": "Vilket värde har medianen för en mätserie bestående av fem olika tal?\n\n(1) Medelvärdet av talen är $20$.\n(2) Det minsta talet är $10$ och det största talet är $30$.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    }
+]

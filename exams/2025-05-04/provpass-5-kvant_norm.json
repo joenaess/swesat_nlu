@@ -1,0 +1,372 @@
+[
+    {
+        "question_number": 1,
+        "question": "Vilket svarsalternativ motsvarar $(x + 4)(2x + 8)$?",
+        "answers": {
+            "a": "$2(x + 4)$",
+            "b": "$3(x + 4)$",
+            "c": "$2(x + 4)^{2}$",
+            "d": "$2(x^{2} + 16)$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 2,
+        "question": "$a$ är ett positivt jämnt heltal.\n$b$ är ett positivt udda heltal.\n\nVilket svarsalternativ är ett jämnt heltal?",
+        "answers": {
+            "a": "$ab$",
+            "b": "$a - b$",
+            "c": "$a + b$",
+            "d": "$ab + b^{2}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 3,
+        "question": "Medelvärdet av de fyra talen $2x, 3x, 5x$ och $8x$ är $45$. Vad är $x$?",
+        "answers": {
+            "a": "$5$",
+            "b": "$10$",
+            "c": "$15$",
+            "d": "$20$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 4,
+        "question": "Vad är $4$\\% av $\\frac{5}{4}$?",
+        "answers": {
+            "a": "$0,01$",
+            "b": "$0,02$",
+            "c": "$0,05$",
+            "d": "$0,06$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 5,
+        "question": "$f(x) = -4x + 7$\n\nFör vilket värde på $x$ gäller att $f(x) = -9$?",
+        "answers": {
+            "a": "$-4$",
+            "b": "$-\\frac{1}{2}$",
+            "c": "$\\frac{1}{2}$",
+            "d": "$4$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 6,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$100$ cm$^{2}$",
+            "b": "$105$ cm$^{2}$",
+            "c": "$110$ cm$^{2}$",
+            "d": "$115$ cm$^{2}$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 7,
+        "question": "Under en rea i en butik sänktes det ordinarie priset på en vara med $30$ procent. En vecka senare gav butiken $50$ procent rabatt på reapriset. Varan kostade därefter $70$ kronor. Vilket var varans ordinarie pris?",
+        "answers": {
+            "a": "$175$ kronor",
+            "b": "$182$ kronor",
+            "c": "$200$ kronor",
+            "d": "$350$ kronor"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 8,
+        "question": "$f(x) = 2x + 3$\n\nVilket svarsalternativ motsvarar $f(2x + 3)$?",
+        "answers": {
+            "a": "$1$",
+            "b": "$2x + 6$",
+            "c": "$4x + 6$",
+            "d": "$4x + 9$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 9,
+        "question": "Vilket svarsalternativ visar en rätvinklig triangel?",
+        "answers": {
+            "a": "Triangel med sidor $13, 5, 12$ cm",
+            "b": "Triangel med sidor $12, 5, 11$ cm",
+            "c": "Triangel med sidor $6, 3, 4$ cm",
+            "d": "Triangel med sidor $6, 2, 6$ cm"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 10,
+        "question": "Erik kör i $30$ minuter med medelhastigheten $30$ km/h och därefter i $60$ minuter med medelhastigheten $60$ km/h. Vilken är hans medelhastighet för hela resan?",
+        "answers": {
+            "a": "$37,5$ km/h",
+            "b": "$45$ km/h",
+            "c": "$50$ km/h",
+            "d": "$52,5$ km/h"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 11,
+        "question": "Summan av $x$ och $y$ är $100$, och $y$ är $200$ mer än $x$. Vad är $x$?",
+        "answers": {
+            "a": "$-100$",
+            "b": "$-50$",
+            "c": "$100$",
+            "d": "$150$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 12,
+        "question": "Vilket svarsalternativ är lika med $\\sqrt{\\sqrt{9} \\cdot \\sqrt{36}}$?",
+        "answers": {
+            "a": "$3$",
+            "b": "$3\\sqrt{2}$",
+            "c": "$6$",
+            "d": "$3\\sqrt{6}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 13,
+        "question": "$x > 0, y > 0$\n\nKvantitet I: $(x - y)^{2}$\nKvantitet II: $(x + y)^{2}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 14,
+        "question": "$x$ är ett positivt heltal.\n\nKvantitet I: $\\frac{4 \\cdot 6 \\cdot 8}{8 \\cdot x}$\nKvantitet II: $\\frac{2 \\cdot 3 \\cdot 4}{x}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 15,
+        "question": "Kvantitet I: Längden av hypotenusan i en rätvinklig triangel där kateterna är $6$ cm respektive $8$ cm\nKvantitet II: Längden av hypotenusan i en rätvinklig triangel där båda kateterna är $7$ cm",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 16,
+        "question": "Kvantitet I: $\\sqrt{10^{8}}$\nKvantitet II: $10^{\\sqrt{8}}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 17,
+        "question": "I det tresiffriga talet $x$ är entalssiffran dubbelt så stor som tiotalssiffran och fyra gånger så stor som hundratalssiffran.\n\nKvantitet I: Entalssiffran i talet $x$\nKvantitet II: $6$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 18,
+        "question": "Kvantitet I: Den positiva lösningen till ekvationen $(x - 3)(x + 2) = 0$\nKvantitet II: $2$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 19,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 20,
+        "question": "$2x + 1 = 2(x + \\frac{1}{2})$\n\nKvantitet I: $x$\nKvantitet II: $-\\frac{1}{2}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 21,
+        "question": "$y \\neq 0$\nFör räkneoperationen $\\oslash$ gäller att $x \\oslash y = \\frac{x}{y}$\n\nKvantitet I: $(1 \\oslash 2) \\oslash 3$\nKvantitet II: $\\frac{1}{3}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 22,
+        "question": "Sidorna på ett mynt benämns krona och klave. Myntet kastas slumpmässigt tre gånger.\n\nKvantitet I: Sannolikheten att få klave minst en gång\nKvantitet II: $\\frac{2}{3}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 23,
+        "question": "På ett fat ligger det melonskivor och vindruvor. Hur många fler vindruvor än melonskivor ligger det på fatet?\n\n(1) Det ligger dubbelt så många vindruvor som melonskivor på fatet.\n(2) Det ligger sammanlagt $57$ melonskivor och vindruvor på fatet.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 24,
+        "question": "Alexandra, Björn och Charlotte befinner sig på olika platser i en lägenhet. En av dem är i hallen, en är i köket och en är i vardagsrummet. Var är Charlotte?\n\n(1) Alexandra är i köket. Björn är inte i hallen.\n(2) Charlotte är inte i köket. Björn är i vardagsrummet.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 25,
+        "question": "$x$ är ett positivt heltal. Vilket värde har $x$?\n\n(1) Skillnaden mellan $50$\\% av $x$ och $30$\\% av $x$ är $22$.\n(2) $x$ är jämnt delbart med både $10$ och $11$.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 26,
+        "question": "På ett barnkalas med $27$ barn äter varje barn varsin korv med bröd. Till korven finns det senap och ketchup som valfria tillbehör. Hur många barn har ketchup på korven?\n\n(1) Av de barn som har senap på korven är det $60$ procent som också har ketchup på korven. $1/9$ av barnen har både senap och ketchup på korven.\n(2) $5$ av barnen har senap på korven. $15$ av barnen har varken senap eller ketchup på korven.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 27,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 28,
+        "question": "Två tal togs bort från mätserien $-10, -8, 0, 6, 7$. Vilka två tal togs bort?\n\n(1) Medianen förblev densamma.\n(2) Medelvärdet ändrades.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    }
+]
