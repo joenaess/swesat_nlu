@@ -58,17 +58,22 @@ if __name__ == "__main__":
             exam_name = os.path.basename(os.path.dirname(pdf_path))
             print(f"\n--- Bearbetar prov: {exam_name} ---")
             
-            # 1. Hantera inläsning för gamla prov (allt utom de 3 senaste)
-            if "2024-10" not in pdf_path and "2025" not in pdf_path:
-                print(f"Laddar befintliga ORD-frågor...")
-                with open(output_path, "r") as f:
-                    exam = json.load(f)
-                exam = [q for q in exam if q.get("question_type") == "ORD"]
+            if os.path.exists(output_path):
+                print(f"Laddar befintliga frågor...")
+                with open(output_path, "r", encoding="utf-8") as f:
+                    try:
+                        exam = json.load(f)
+                        # Behåll endast frågor som tillhör de verbala typerna
+                        # (Filtrerar bort XYZ, KVA, NOG, DTK om de finns i filen)
+                        exam = [q for q in exam if q.get("question_type") in verb_section_keywords]
+                    except json.JSONDecodeError:
+                        print(f"Varning: Kunde inte läsa {output_path}. Startar tom lista.")
+                        exam = []
             else:
-                print(f"Nytt prov (2024/2025). Parsar allt.")
+                print(f"Ingen tidigare data hittad. Startar ny lista.")
                 exam = []
 
-            # 2. Identifiera sidor med normalisering för att klara 2022-10-23
+            # Identifiera sidor med normalisering för att klara 2022-10-23
             section_pages = identify_section_pages(pdf_path, verb_section_keywords)
             reader = pdfplumber.open(pdf_path)
             

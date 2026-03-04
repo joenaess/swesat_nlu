@@ -6,6 +6,10 @@ pdf_paths = {
         "provpass-4-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2020-10-25/hogskoleprovet-2020-10-25-del-4_verbal-del-utan-elf.pdf",
         "provpass-2-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2020-10-25/hogskoleprovet-2020-10-25-del-2_verbal-del-utan-elf.pdf",
     },
+    "2021-03-13": {
+        "provpass-4-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2021-03-13/provpass-4-verb-utan-elf.pdf",
+        "provpass-1-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2021-03-13/provpass-1-verb-utan-elf.pdf",
+    },
     "2021-05-08": {
         "provpass-4-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2021-05-08/provpass-4-verb-utan-elf.pdf",
         "provpass-1-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2021-05-08/provpass-1-verb-utan-elf.pdf",
@@ -17,6 +21,10 @@ pdf_paths = {
     "2022-03-12": {
         "provpass-4-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2022-03-12/provpass-4-verb-utan-elf.pdf",
         "provpass-2-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2022-03-12/provpass-2-verb-utan-elf.pdf",
+    },
+     "2022-05-07": {
+        "provpass-3-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2022-05-07/provpass-3-verb-utan-elf.pdf",
+        "provpass-5-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2022-05-07/provpass-5-verb-utan-elf.pdf",
     },
     "2022-10-23": {
         "provpass-2-verb-utan-elf.pdf": "https://www.studera.nu/globalassets/05-hogskoleprovet/hp-2022-10-23/provpass-2-verb-utan-elf.pdf",

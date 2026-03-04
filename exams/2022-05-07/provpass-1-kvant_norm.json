@@ -1,0 +1,372 @@
+[
+    {
+        "question_number": 1,
+        "question": "Vilket värde har $x$ om $x + \\frac{1}{3} = \\frac{1}{2}$?",
+        "answers": {
+            "a": "$\\frac{1}{6}$",
+            "b": "$\\frac{1}{5}$",
+            "c": "$\\frac{1}{4}$",
+            "d": "$\\frac{1}{2}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 2,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$40^{\\circ}$",
+            "b": "$50^{\\circ}$",
+            "c": "$60^{\\circ}$",
+            "d": "$70^{\\circ}$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 3,
+        "question": "$f(x) = 2x - 3$\n\nVilket värde har $x$ om $f(x) = 7$?",
+        "answers": {
+            "a": "$2$",
+            "b": "$4$",
+            "c": "$5$",
+            "d": "$10$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 4,
+        "question": "Medelvärdet av de fyra talen $2, 5, 8$ och $x$ är $5$. Vad är $x$?",
+        "answers": {
+            "a": "$3$",
+            "b": "$5$",
+            "c": "$6$",
+            "d": "$10$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 5,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$12$ cm$^{2}$",
+            "b": "$18$ cm$^{2}$",
+            "c": "$24$ cm$^{2}$",
+            "d": "$36$ cm$^{2}$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 6,
+        "question": "$x > 0$\n\nHur många procent av $x$ är $\\frac{x}{5} + \\frac{x}{10}$?",
+        "answers": {
+            "a": "$15$",
+            "b": "$20$",
+            "c": "$25$",
+            "d": "$30$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 7,
+        "question": "$x^{2} - 4 = 0$\n\nVilket värde har $x$ om $x > 0$?",
+        "answers": {
+            "a": "$1$",
+            "b": "$2$",
+            "c": "$4$",
+            "d": "$8$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 8,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$y = x + 1$",
+            "b": "$y = 2x$",
+            "c": "$y = x - 1$",
+            "d": "$y = -x + 1$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "graph",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 9,
+        "question": "Hur stor är sannolikheten att få två udda tal vid två slumpmässiga kast med en vanlig sexsidig tärning?",
+        "answers": {
+            "a": "$\\frac{1}{4}$",
+            "b": "$\\frac{1}{3}$",
+            "c": "$\\frac{1}{2}$",
+            "d": "$\\frac{3}{4}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 10,
+        "question": "$\\frac{a}{b} = \\frac{3}{4}$\n\nVad är $\\frac{2a}{3b}$?",
+        "answers": {
+            "a": "$\\frac{1}{2}$",
+            "b": "$\\frac{2}{3}$",
+            "c": "$\\frac{3}{4}$",
+            "d": "$1$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 11,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$9\\pi$ cm$^{2}$",
+            "b": "$12\\pi$ cm$^{2}$",
+            "c": "$18\\pi$ cm$^{2}$",
+            "d": "$36\\pi$ cm$^{2}$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 12,
+        "question": "$3^{x} \\cdot 3^{2} = 3^{6}$\n\nVad är $x$?",
+        "answers": {
+            "a": "$3$",
+            "b": "$4$",
+            "c": "$6$",
+            "d": "$12$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 13,
+        "question": "Kvantitet I: $\\frac{1}{3} + \\frac{1}{4}$\nKvantitet II: $\\frac{1}{2}$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 14,
+        "question": "$x > 1$\n\nKvantitet I: $x^{2}$\nKvantitet II: $x$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 15,
+        "question": "$x + y = 10$\n$x > y$\n\nKvantitet I: $x$\nKvantitet II: $5$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 16,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 17,
+        "question": "$f(x) = x^{2} - 1$\n\nKvantitet I: $f(2)$\nKvantitet II: $f(-2)$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 18,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 19,
+        "question": "$S = \\{1, 3, 5, 7, 9\\}$\n\nKvantitet I: Medelvärdet av talen i $S$\nKvantitet II: Medianen av talen i $S$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 20,
+        "question": "Kvantitet I: $10$ % av $50$\nKvantitet II: $5$ % av $100$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 21,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "graph",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 22,
+        "question": "$\\frac{x}{y} = 2$\n\nKvantitet I: $x - y$\nKvantitet II: $y$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 23,
+        "question": "Hur många elever går det i klass 9C?\n\n(1) Det går 12 pojkar i klassen.\n(2) 60 % av eleverna i klassen är flickor.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 24,
+        "question": "Är $x > y$?\n\n(1) $x - y > 0$\n(2) $x^{2} > y^{2}$\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 25,
+        "question": "Vilken area har cirkeln $C$?\n\n(1) Cirkelns radie är $3$ cm.\n(2) Cirkelns omkrets är $6\\pi$ cm.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 26,
+        "question": "Hur gamla är tvillingarna Adam och Bertil?\n\n(1) Summan av deras åldrar är $30$ år.\n(2) Produkten av deras åldrar är $225$.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 27,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 28,
+        "question": "Hur långt körde en bil?\n\n(1) Bilens medelhastighet var $80$ km/h.\n(2) Bilen körde i exakt $2$ timmar.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    }
+]

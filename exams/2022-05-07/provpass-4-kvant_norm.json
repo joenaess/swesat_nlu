@@ -1,0 +1,372 @@
+[
+    {
+        "question_number": 1,
+        "question": "Vad är $(1,7 \cdot 10^{5})(3,3 \cdot 10^{3})$?",
+        "answers": {
+            "a": "$3,21 \cdot 10^{8}$",
+            "b": "$5,61 \cdot 10^{8}$",
+            "c": "$3,21 \cdot 10^{15}$",
+            "d": "$5,61 \cdot 10^{15}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 2,
+        "question": "Medelvärdet av $x$ och $y$ är $3$. Medelvärdet av $y$ och $1$ är $5$. Vilket värde har $x$?",
+        "answers": {
+            "a": "$-5$",
+            "b": "$-3$",
+            "c": "$0$",
+            "d": "$15$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 3,
+        "question": "$x > 1$\n\nVilket svarsalternativ motsvarar $(x^{7})^{y+2}$?",
+        "answers": {
+            "a": "$x^{y+9}$",
+            "b": "$x^{7y+2}$",
+            "c": "$x^{7y+14}$",
+            "d": "$x^{y+49}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 4,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "Graf A",
+            "b": "Graf B",
+            "c": "Graf C",
+            "d": "Graf D"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "graph",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 5,
+        "question": "$a \neq 0, b \neq 0, x \neq 0, y \neq 0$\n\nVilket svarsalternativ är med säkerhet lika med $b$ om $\frac{6x}{y} = \frac{3a}{2b}$?",
+        "answers": {
+            "a": "$\frac{y}{2}$",
+            "b": "$\frac{ay}{4x}$",
+            "c": "$\frac{4ay}{x}$",
+            "d": "$\frac{9ay}{x}$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 6,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$130^{\circ}$",
+            "b": "$145^{\circ}$",
+            "c": "$150^{\circ}$",
+            "d": "$160^{\circ}$"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 7,
+        "question": "$x \neq 0, y \neq 0$\n\n$\frac{x^{2}}{y} + 2 = 2 - (-x)$\n\nVilket svarsalternativ är med säkerhet korrekt?",
+        "answers": {
+            "a": "$x + y = 2$",
+            "b": "$x < y$",
+            "c": "$x = y$",
+            "d": "$x > y$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 8,
+        "question": "Kalle är pappa till tre pojkar och en flicka. Idag är pojkarnas sammanlagda ålder lika med flickans ålder. Vad är differensen mellan pojkarnas sammanlagda ålder och flickans ålder om tre år?",
+        "answers": {
+            "a": "$0$ år",
+            "b": "$3$ år",
+            "c": "$6$ år",
+            "d": "$9$ år"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 9,
+        "question": "Hur många procent är $14,4$ av $36$?",
+        "answers": {
+            "a": "$35$",
+            "b": "$40$",
+            "c": "$45$",
+            "d": "$50$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 10,
+        "question": "Punkten $(a, a)$ ligger på linjen $y = \frac{1}{2}x + 2$. Vilket värde har $a$?",
+        "answers": {
+            "a": "$0$",
+            "b": "$\frac{1}{2}$",
+            "c": "$2$",
+            "d": "$4$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 11,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "$(30 + 5\pi)$ cm",
+            "b": "$(40 + 5\pi)$ cm",
+            "c": "$(30 + 10\pi)$ cm",
+            "d": "$(40 + 10\pi)$ cm"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "diagram",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 12,
+        "question": "$xy = 1$\n\nVilket värde har uttrycket $(x + y)^{2} - (x - y)^{2}$?",
+        "answers": {
+            "a": "$0$",
+            "b": "$1$",
+            "c": "$2$",
+            "d": "$4$"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "XYZ"
+    },
+    {
+        "question_number": 13,
+        "question": "Kvantitet I: $80\,000$ cm\nKvantitet II: $8$ km",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 14,
+        "question": "Kvantitet I: $\frac{1}{5} - \frac{5}{20}$\nKvantitet II: $0$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 15,
+        "question": "En mätserie består av de fem positiva heltalen $4, 2, a, 7$ och $3$.\n\nKvantitet I: Mätseriens median\nKvantitet II: $3$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 16,
+        "question": "$-7(3 - 2x) = 21$\n\nKvantitet I: $x$\nKvantitet II: $3$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 17,
+        "question": "Kvantitet I: Längden av den tredje sidan i en triangel där summan av de två andra sidorna är $17$ cm\nKvantitet II: $15$ cm",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 18,
+        "question": "$x + \frac{1}{2} = y + \frac{3}{5}$\n\nKvantitet I: $x$\nKvantitet II: $y$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 19,
+        "question": "$x < y$\n\nKvantitet I: $x + y$\nKvantitet II: $x - y$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 20,
+        "question": "Fyra cirklar har radierna $5$ cm, $10$ cm, $15$ cm respektive $20$ cm.\n\nKvantitet I: Den sammanlagda arean av den största och den minsta cirkeln\nKvantitet II: Den sammanlagda arean av de två mellanstora cirklarna",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 21,
+        "question": "Visual required to solve this question",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "yes",
+        "visual_type": "graph",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 22,
+        "question": "Kvantitet I: Summan av primtalsfaktorerna i heltalet $21$\nKvantitet II: Summan av primtalsfaktorerna i heltalet $30$",
+        "answers": {
+            "a": "I är större än II",
+            "b": "II är större än I",
+            "c": "I är lika med II",
+            "d": "informationen är otillräcklig"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "KVA"
+    },
+    {
+        "question_number": 23,
+        "question": "Är Alma längre än Elsa?\n\n(1) Alma är längre än Freja.\n(2) Freja är kortare än Elsa.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 24,
+        "question": "I ett pennställ finns det endast enfärgade svarta och röda pennor. Hur många pennor finns det i pennstället?\n\n(1) Sannolikheten är $5/15$ att en slumpmässigt plockad penna från pennstället är röd.\n(2) Det finns $20$ svarta pennor i pennstället.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 25,
+        "question": "$50 < x < 60$. Vad är $x$?\n\n(1) $x$ är jämnt delbart med $7$.\n(2) $x$ är jämnt delbart med $8$.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 26,
+        "question": "En kiosk säljer kulglass och har en dag endast tre olika smaker: choklad, jordgubb och vanilj. Hur många kulor glass säljs under denna dag?\n\n(1) $1/8$ av kulorna som säljs under dagen har vaniljsmak. Av smakerna choklad och jordgubb säljs det sammanlagt $140$ kulor.\n(2) Det säljs $80$ kulor med smaken choklad under dagen.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 27,
+        "question": "Är $x < 0$?\n\n(1) $x < y < z$\n(2) $xy > xz$\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    },
+    {
+        "question_number": 28,
+        "question": "$C$ är en cirkel och $K$ är en kvadrat. Har $C$ större area än $K$?\n\n(1) Sidan i $K$ är större än radien i $C$.\n(2) Diametern i $C$ är lika med diagonalen i $K$.\n\nTillräcklig information för lösningen erhålls",
+        "answers": {
+            "a": "i (1) men ej i (2)",
+            "b": "i (2) men ej i (1)",
+            "c": "i (1) tillsammans med (2)",
+            "d": "i (1) och (2) var för sig",
+            "e": "ej genom de båda påståendena"
+        },
+        "is_accompanied_with_visual": "no",
+        "visual_type": "",
+        "question_type": "NOG"
+    }
+]
