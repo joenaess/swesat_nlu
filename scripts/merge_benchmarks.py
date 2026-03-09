@@ -3,7 +3,9 @@ import os
 import glob
 from datasets import load_dataset
 from prompts import zero_shot_prompts
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent / "exams"
 
 def get_system_prompt(options_count):
     if options_count == 0:
@@ -54,10 +56,9 @@ def get_answer_key(facit_data, filename, question_number):
 
 def load_swesat():
     unified_items = []
-    base_dir = "exams"
 
-    for date_dir in os.listdir(base_dir):
-        dir_path = os.path.join(base_dir, date_dir)
+    for date_dir in os.listdir(BASE_DIR):
+        dir_path = os.path.join(BASE_DIR, date_dir)
         if not os.path.isdir(dir_path):
             continue
 
@@ -136,34 +137,46 @@ def load_swesat():
 
 def load_skolprov():
     print("Loading Swedish Skolprov from HF...")
-    skolprov_ds = load_dataset("Ekgren/swedish_skolprov", "all")
-    split_name = "train" if "train" in skolprov_ds else list(skolprov_ds.keys())[0]
+    
+    configs = [
+        "kunskapsprov_läkare", 
+        "kunskapsprov_tandläkare", 
+        "kunskapsprov_audionom", 
+        "kunskapsprov_apotekare", 
+        "matematik_och_fysikprovet"
+    ]
 
     unified_items = []
 
-    for item in skolprov_ds[split_name]:
-        if item.get("question_resource"):
-            continue
+    for name in configs:
+        # Load each subset individually to avoid 'unhashable type: list'
+        ds = load_dataset("Ekgren/swedish_skolprov", name, split="train")
 
-        unified_item = {
-            "uid": item.get("uid", ""),
-            "test_id": item.get("test_id", ""),
-            "section": item.get("section", ""),
-            "subsection": item.get("subsection", ""),
-            "question_id": item.get("question_id", ""),
-            "question_resource": item.get("question_resource", ""),
-            "question": item.get("question", ""),
-            "option_a": item.get("option_a", ""),
-            "option_b": item.get("option_b", ""),
-            "option_c": item.get("option_c", ""),
-            "option_d": item.get("option_d", ""),
-            "option_e": item.get("option_e", ""),
-            "system_prompt": item.get("system_prompt", ""),
-            "prompt": item.get("prompt", ""),
-            "answer": item.get("answer", ""),
-            "source": "skolprov",
-        }
-        unified_items.append(unified_item)
+        # Iterate through the individual rows in the Dataset object
+        for item in ds:
+            # Skip items with a question_resource as per your logic
+            if item.get("question_resource"):
+                continue
+
+            unified_item = {
+                "uid": item.get("uid", ""),
+                "test_id": item.get("test_id", ""),
+                "section": item.get("section", ""),
+                "subsection": item.get("subsection", ""),
+                "question_id": item.get("question_id", ""),
+                "question_resource": item.get("question_resource", ""),
+                "question": item.get("question", ""),
+                "option_a": item.get("option_a", ""),
+                "option_b": item.get("option_b", ""),
+                "option_c": item.get("option_c", ""),
+                "option_d": item.get("option_d", ""),
+                "option_e": item.get("option_e", ""),
+                "system_prompt": item.get("system_prompt", ""),
+                "prompt": item.get("prompt", ""),
+                "answer": item.get("answer", ""),
+                "source": "skolprov",
+            }
+            unified_items.append(unified_item)
 
     return unified_items
 
@@ -179,6 +192,8 @@ def merge():
     combined = swesat_data + skolprov_data
 
     # Deduplicate combined items by their prompt and answer
+    # Not needed anymore since we do not merge the HP part of skolprov
+    """
     seen = set()
     deduped = []
     for item in combined:
@@ -189,7 +204,7 @@ def merge():
 
     print(f"Removed {len(combined) - len(deduped)} duplicate questions from overlap.")
     combined = deduped
-
+    """
     output_file = "merged_benchmark.jsonl"
     with open(output_file, "w", encoding="utf-8") as f:
         for item in combined:
